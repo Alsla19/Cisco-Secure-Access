@@ -21,8 +21,8 @@ def getToken():
 	token_url = 'https://api.sse.cisco.com/auth/v2/token'
 	try:
 		#ASSIGN your client ID to the variable client_id and secret to the variable client_secret
-		client_id = "2e00c347e096431b81ab7be63c161d96"
-		client_secret = "0ac626055cae4f4dbeca0361c1991b40"
+		client_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+		client_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 		auth = HTTPBasicAuth(client_id, client_secret)
 		client = BackendApplicationClient(client_id=client_id)
